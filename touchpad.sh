@@ -19,8 +19,8 @@ echo 'Root to HOME'
 # crontab -e
 #####################################
 ######## Start Cronie #########
-# * *  * * * /home/brando/Escritorio/touchpad.sh
-# @reboot /home/brando/Escritorio/touchpad.sh
+# * *  * * * /home/brando/touchpad.sh
+# @reboot /home/brando/touchpad.sh
 #####################################
 #####################################
 
