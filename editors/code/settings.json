@@ -1,1 +1,64 @@
-{}
+{
+  "breadcrumbs.enabled": false,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.fontFamily": "'FantasqueSansMono Nerd Font Mono', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12,
+  "editor.formatOnPaste": false,
+  "editor.guides.bracketPairs": true,
+  "editor.linkedEditing": true,
+  "editor.suggestSelection": "first",
+  "editor.rulers": [100],
+  "editor.stickyScroll.enabled": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "off",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.excludeGitIgnore": false,
+  "files.autoSave": "onFocusChange",
+  "files.eol": "\n",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "oneDarkPro.vivid": false,
+  "rapidapi.hub.enabled": true,
+  "rapidapi.requests.timeout": 30000,
+  "search.useGlobalIgnoreFiles": true,
+  "search.useIgnoreFiles": true,
+  "workbench.colorCustomizations": {},
+  "workbench.colorTheme": "One Dark Pro Flat",
+  "workbench.iconTheme": "helium-icon-theme",
+  "workbench.sideBar.location": "right",
+  "[css]": {
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+}
