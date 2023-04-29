@@ -27,3 +27,20 @@ prompt ${DOTLY_THEME:-codely}
 source "$DOTLY_PATH/shell/zsh/bindings/dot.zsh"
 source "$DOTLY_PATH/shell/zsh/bindings/reverse_search.zsh"
 source "$DOTFILES_PATH/shell/zsh/key-bindings.zsh"
+
+# alias
+alias gaa='git add --all'
+alias gb='git branch'
+alias gcmsg='git commit -m'
+alias gf='git fetch'
+alias gfa='git fetch --all --prune --jobs=10'
+alias gl='git pull'
+alias glods='git log --graph --pretty='\''%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset'\'' --date=short'
+alias glol='git log --graph --pretty='\''%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset'\'
+alias glog='git log --oneline --decorate --graph'
+alias gm='git merge'
+alias gp='git push'
+alias gr='git remote'
+alias grv='git remote -v'
+alias gsw='git switch'
+alias gss='git status -s'
