@@ -49,3 +49,18 @@ alias grv='git remote -v'
 alias gsw='git switch'
 alias gss='git status -s'
 
+# npm and yarn aliases
+alias npms="npm start"
+alias npmd="npm run dev"
+alias npmb="npm run build"
+alias npmc="npm run clean"
+alias npml="npm run lint"
+alias npmlf="npm run lint-fix"
+alias npmk="npm run kill"
+alias yarns="yarn start"
+alias yarnd="yarn run dev"
+alias yarnb="yarn run build"
+alias yarnl="yarn run lint"
+alias yarnlf="yarn run lint-fix"
+alias yarnc="yarn run clean"
+alias yarnk="yarn run kill"
