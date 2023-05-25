@@ -33,7 +33,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # alias
-alias gaa='git add --all'
+alias gaa='git add .'
 alias gb='git branch'
 alias gcmsg='git commit -m'
 alias gf='git fetch'
