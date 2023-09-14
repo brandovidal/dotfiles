@@ -73,3 +73,16 @@ alias pnpms="pnpm start"
 alias pnpml="pnpm run lint"
 alias pnpmlf="pnpm run lint-fix"
 alias pnpmk="pnpm run kill"
+# pnpm
+export PNPM_HOME="/home/brando/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+# bun completions
+[ -s "/home/brando/.bun/_bun" ] && source "/home/brando/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
