@@ -6,7 +6,11 @@ alias ...="cd ../.."
 alias ll="ls -l"
 alias la="ls -la"
 alias ~="cd ~"
+alias findd="ls ~/ | grep $1"
 alias dotfiles='cd $DOTFILES_PATH'
+
+# Undefined Bootcamp
+alias cafe="cat /dev/urandom | hexdump | grep \"ca fe\""
 
 # Git
 alias gaa='git add .'
@@ -63,8 +67,5 @@ alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias o.='open .'
 alias up='dot package update_all'
-
-# Undefined Bootcamp
-alias findd="ls ~/ | grep $1"
 alias cl="clear"
-alias cafe="cat /dev/urandom | hexdump | grep \"ca fe\""
+
