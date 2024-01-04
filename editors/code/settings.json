@@ -21,8 +21,6 @@
   "explorer.excludeGitIgnore": false,
   "files.eol": "\n",
   "oneDarkPro.vivid": false,
-  "rapidapi.hub.enabled": true,
-  "rapidapi.requests.timeout": 30000,
   "search.useGlobalIgnoreFiles": true,
   "search.useIgnoreFiles": true,
   "terminal.integrated.defaultProfile.windows": "Ubuntu-22.04 (WSL)",
@@ -60,7 +58,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+    "editor.defaultFormatter": "chenxsan.vscode-standard-format"
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -72,7 +70,7 @@
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -80,29 +78,43 @@
   "[toml]": {
     "editor.defaultFormatter": "tamasfe.even-better-toml"
   },
-  "rapidapi.terminalLink.enabled": false,
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.editor.wrapTabs": true,
-  "window.commandCenter": true,
   "[yaml]": {
     "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "workbench.editor.wrapTabs": true,
+  "window.commandCenter": true,
   "editor.formatOnType": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
   "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
   "codeium.enableConfig": {
     "*": true,
-    "markdown": true
+    "markdown": true,
+    "plaintext": true,
+    "ignore": true
   },
+  "codeium.aggressiveShutdown": true,
+  "workbench.settings.applyToAllProfiles": [
+    "codeium.aggressiveShutdown"
+  ],
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
   "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "window.zoomLevel": -1,
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  "console-ninja.featureSet": "Community",
+  "remote.autoForwardPortsSource": "hybrid",
+  "workbench.editorAssociations": {
+    "*.db": "sqlite-viewer.option"
   },
-  "console-ninja.featureSet": "Community"
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.lineHeight": 2,
+  "window.zoomLevel": -1
 }
