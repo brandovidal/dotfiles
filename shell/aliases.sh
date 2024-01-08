@@ -20,6 +20,7 @@ alias gca="git add --all && git commit --amend --no-edit"
 alias gcmsg='git commit -m'
 alias gco="git checkout"
 alias gd='$DOTLY_PATH/bin/dot git pretty-diff'
+alias gdf='git diff --name-only HEAD^ HEAD'
 alias gf='git fetch'
 alias gfa='git fetch --all --prune --jobs=10'
 alias gl='git pull'
