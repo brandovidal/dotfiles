@@ -5,3 +5,9 @@ zmodule zimfw/input
 zmodule zimfw/completion
 zmodule zsh-users/zsh-syntax-highlighting
 zmodule zsh-users/zsh-autosuggestions
+zmodule zimfw/exa
+zmodule zimfw/utility
+zmodule zimfw/prompt-pwd
+zmodule zdharma-continuum/fast-syntax-highlighting
+zmodule diazod/git-prune
+zmodule zsh-sudo
