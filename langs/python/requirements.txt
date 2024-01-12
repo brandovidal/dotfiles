@@ -17,11 +17,13 @@ lazr.uri==1.0.6
 more-itertools==10.2.0
 netifaces==0.11.0
 oauthlib==3.2.2
+pycairo==1.25.1
 pycparser==2.21
 PyGObject==3.42.1
 PyJWT==2.8.0
 pyparsing==3.1.1
 python-apt==2.4.0+ubuntu2
+pyxdg==0.27
 PyYAML==6.0.1
 SecretStorage==3.3.3
 six==1.16.0
@@ -30,5 +32,7 @@ ubuntu-advantage-tools==8001
 ufw==0.36.1
 unattended-upgrades==0.1
 wadllib==1.3.6
+xdg==5.0.0
 ziglang==0.11.0
+zim==0.74.3
 zipp==3.17.0

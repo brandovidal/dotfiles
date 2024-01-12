@@ -1,0 +1,7 @@
+corepack
+depcheck
+npkill
+surge
+trash-cli
+tsc
+wrangler
