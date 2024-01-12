@@ -99,4 +99,4 @@ if [ -n "$(ls -A "$DOTFILES_PATH/shell/bash/completions/")" ]; then
   done
 fi
 
-PATH=~/.console-ninja/.bin:$PATH
+PATH=~/.console-ninja/.bin:$PATHexport PATH=$PATH:$HOME/.tfenv/bin
