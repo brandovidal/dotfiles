@@ -116,5 +116,8 @@
   },
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.lineHeight": 2,
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
+  }
 }

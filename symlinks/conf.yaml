@@ -8,8 +8,6 @@
 - create:
     - $DOTFILES_PATH/shell/bash/completions
     - $DOTFILES_PATH/shell/bash/themes
-    - $DOTFILES_PATH/shell/zsh/completions
-    - $DOTFILES_PATH/shell/zsh/themes
 
 - link:
     ~/.bash_profile: shell/bash/.bash_profile
