@@ -39,6 +39,7 @@ libatomic1
 libatspi2.0-0
 libcairo-gobject2
 libcairo2
+libcairo2-dev
 libcups2
 libdbus-1-3
 libdbus-glib-1-2
@@ -129,4 +130,5 @@ xclip
 xfonts-cyrillic
 xfonts-scalable
 xvfb
+zim
 zsh
