@@ -9,3 +9,5 @@ source /home/brando/.dotfiles/shell/zsh/.zim/modules/zsh-syntax-highlighting/zsh
 source /home/brando/.dotfiles/shell/zsh/.zim/modules/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /home/brando/.dotfiles/shell/zsh/.zim/modules/zsh-sudo/init.zsh
 source /home/brando/.dotfiles/shell/zsh/.zim/modules/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source /home/brando/.dotfiles/shell/zsh/.zim/modules/zsh-completions/zsh-completions.plugin.zsh
+source /home/brando/.dotfiles/shell/zsh/.zim/modules/history/init.zsh
