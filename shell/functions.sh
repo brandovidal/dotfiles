@@ -17,3 +17,8 @@ function recent_dirs() {
 
 	cd "$(echo "$selected" | sed "s/\~/$escaped_home/")" || echo "Invalid directory"
 }
+
+take() {
+	mkdir -p "${1}"
+	cd "${1}"
+}
