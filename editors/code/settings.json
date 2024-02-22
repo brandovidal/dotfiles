@@ -1,12 +1,15 @@
 {
   "breadcrumbs.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "'FantasqueSansM Nerd Font Mono',  'CaskaydiaCove Nerd Font Mono', monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 12,
+  "editor.lineHeight": 2,
   "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
   "editor.formatOnSave": false,
   "editor.guides.bracketPairs": true,
   "editor.inlineSuggest.enabled": true,
@@ -21,6 +24,7 @@
   "explorer.excludeGitIgnore": false,
   "files.eol": "\n",
   "oneDarkPro.vivid": false,
+  "remote.autoForwardPortsSource": "hybrid",
   "search.useGlobalIgnoreFiles": true,
   "search.useIgnoreFiles": true,
   "terminal.integrated.defaultProfile.windows": "Ubuntu-22.04 (WSL)",
@@ -47,10 +51,30 @@
       "args": ["-d", "Ubuntu-22.04"]
     }
   },
-  "workbench.colorCustomizations": {},
+  "window.commandCenter": true,
+  "window.zoomLevel": -1,
+  "workbench.editor.wrapTabs": true,
+  "workbench.settings.applyToAllProfiles": ["codeium.aggressiveShutdown"],
+  "workbench.editorAssociations": {
+    "*.db": "sqlite-viewer.option"
+  },
   "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sideBar.location": "right",
+  "codeium.aggressiveShutdown": true,
+  "codeium.enableConfig": {
+    "*": true,
+    "markdown": true,
+    "plaintext": true,
+    "ignore": true
+  },
+  "console-ninja.featureSet": "Community",
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "[css]": {
     "editor.defaultFormatter": "numso.prettier-standard-vscode"
   },
@@ -58,10 +82,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "chenxsan.vscode-standard-format"
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"
@@ -90,34 +114,16 @@
   "[astro]": {
     "editor.defaultFormatter": "astro-build.astro-vscode"
   },
-  "workbench.editor.wrapTabs": true,
-  "window.commandCenter": true,
-  "editor.formatOnType": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
-  "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
-  "codeium.enableConfig": {
-    "*": true,
-    "markdown": true,
-    "plaintext": true,
-    "ignore": true
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "codeium.aggressiveShutdown": true,
-  "workbench.settings.applyToAllProfiles": [
-    "codeium.aggressiveShutdown"
-  ],
-  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "console-ninja.featureSet": "Community",
-  "remote.autoForwardPortsSource": "hybrid",
-  "workbench.editorAssociations": {
-    "*.db": "sqlite-viewer.option"
-  },
-  "diffEditor.ignoreTrimWhitespace": false,
-  "editor.lineHeight": 2,
-  "window.zoomLevel": -1,
   "[terraform]": {
     "editor.defaultFormatter": "hashicorp.terraform"
+  },
+  "[terraform-vars]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
+  },
+  "[properties]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
   }
 }
